@@ -12,8 +12,10 @@ a=0
 
 def wow(a):
   if a == 1:
-    return a=0
+    a=0
+    return
   else:
-    return a=1
+    a=1
+    return
 
 st.button(label: hiiiii,on_click: def wow(a))
