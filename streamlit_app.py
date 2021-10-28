@@ -10,7 +10,7 @@ if st.checkbox('Show raw data'):
 
 a=0
 
-def wow():
+def wow(a):
   if a == 1:
     a=0
     st.write('woooooooooo')
@@ -20,4 +20,4 @@ def wow():
     st.write('oooooooooow')
     return
 
-st.button(label='hii',on_click = wow())
+st.button(label='hii',on_click = wow(a))
