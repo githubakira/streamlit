@@ -18,4 +18,4 @@ def wow(a):
     a=1
     return
 
-st.button('hii')
+st.button(label('hii'),on_click(print(a))
