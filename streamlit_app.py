@@ -4,5 +4,6 @@ import numpy as np
 
 st.title('Uber pickups in NYC')
 
+data=0
 if st.checkbox('Show raw data'):
   st.write(data)
